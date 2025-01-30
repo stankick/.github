@@ -1,14 +1,16 @@
-#  Stankick/.github
+# ✨[Stankick.github.io](stankick.mental-health-enterprise.html)✨
+   
+   - index.md
 
 ##  Welcome to A Punt: PUGSHow--STAN-kickers!
 
-###  README.md
-    - git.md
-    - irdat.markdown
-    - 'irdat.git'
-    - yi.md
-    - 'yi.git'
-    - 'yi.irdat.markdown'
+##  README.md
+    *.git.md
+    *.irdat.markdown
+    *.rdat.git
+    *.yi.md
+    *.yi.git
+    *.yi.irdat.markdown
     - datway.md
     - 'datway.irdat.markdown'
 -----------------
