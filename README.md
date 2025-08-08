@@ -2,7 +2,7 @@
 
 The way to get the world in rotation.
 
-/mental-health-enterprise/README.md
+stankick/.github/README.md
 
 # test-edit-2
 
