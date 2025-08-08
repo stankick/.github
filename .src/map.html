@@ -26,7 +26,23 @@
       .openPopup();
 
     // Add more markers here or load dynamically from JSON
-  </script>
+ <script>
+  const map = L.map('map').setView([0, 0], 2);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Load partners data
+  fetch('partners.json')
+    .then(res => res.json())
+    .then(partners => {
+      partners.forEach(partner => {
+        L.marker([partner.latitude, partner.longitude]).addTo(map)
+          .bindPopup(`<b>${partner.name}</b><br>${partner.description}<br><a href="${partner.website}" target="_blank">Website</a>`);
+      });
+    })
+    .catch(err => console.error('Error loading partners:', err));
+</script>
   <section>
   <h2>Explore Our Global Map</h2>
   <p><a href=".src/map.html" target="_blank" rel="noopener">View the Interactive Content Connections Map</a></p>
