@@ -35,7 +35,7 @@ fetch('location.json')
   .then(data => {
     const footer = document.querySelector('footer');
     const locInfo = document.createElement('p');
-    locInfo.textContent = `📍 Location: ${data.latitude.toFixed(4)}, ${data.longitude.toFixed(4)} — ${data.description}`;
+    locInfo.textContent = `📍 Location: ${data.latitude.toFixed(5)}, ${data.longitude.toFixed(5)} — ${data.description}`;
     footer.appendChild(locInfo);
   });
 </script>
