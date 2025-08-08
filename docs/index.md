@@ -4,3 +4,4 @@ Explore our mission, workflows, and how to get involved!
 
 - [FAQ](faq.md)
 - [Tutorial](tutorial.md)
+- [Global Map](../.src/map.html)
