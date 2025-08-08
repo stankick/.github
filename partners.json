@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Creative Hub Naje",
+    "latitude": 32,51075° N,
+    "longitude": 87,83073° W,
+    "website": "https://creativehub.co.ke-na_je",
+    "description": "A vibrant creative community in Nairobi, Kenya."
+  },
+  {
+    "name": "Tech Innovators North America",
+    "latitude": 32,51791° N,
+    "longitude": 87,83293° W,
+    "website": "https://techinnovators.com.na",
+    "description": "Leading tech startup incubator in São Paulo, Brazil."
+  },
+  {
+    "name": "Digital Arts Center Demopolis",
+    "latitude": 32,51316° N, 
+    "longitude": 87,84345° W,
+    "website": "https://digitalarts.ds",
+    "description": "A hub for digital arts and multimedia in Singapore."
+  }
+]
