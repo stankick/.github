@@ -1,0 +1,9 @@
+# This file defines who is automatically requested for review
+# when changes are made to certain parts of the repository.
+
+# Global owners for all files
+*       @stankick
+
+# Docs ownership
+.docx/  @stankick
+.src/   @stankick
