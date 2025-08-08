@@ -1,0 +1,15 @@
+.github/              <-- Special GitHub repo
+│
+├── profile/
+│   └── README.md     <-- Org profile
+│
+├── .src/
+│   ├── style.css
+│   ├── script.js
+│   └── data.json
+│
+├── .docx/
+│   └── Equator_Content_Connections.docx
+│
+├── index.html
+└── README.md
