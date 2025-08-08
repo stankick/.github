@@ -29,5 +29,15 @@
         <p>&copy; 2025 stankick • Equator Content Connections</p>
     </footer>
     <script src=".src/script.js"></script>
+    <script>
+fetch('location.json')
+  .then(response => response.json())
+  .then(data => {
+    const footer = document.querySelector('footer');
+    const locInfo = document.createElement('p');
+    locInfo.textContent = `📍 Location: ${data.latitude.toFixed(4)}, ${data.longitude.toFixed(4)} — ${data.description}`;
+    footer.appendChild(locInfo);
+  });
+</script>
 </body>
 </html>
